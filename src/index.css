@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--Tajwal_font);
+  direction: rtl;
+}
+
+.main_container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+}
+
+:root{
+  --Tajwal_font:"Tajawal", sans-serif;
+
+   /* 
+    ======================
+          Colors
+    ======================
+  */
+  
+  --black-color: #1b1b1b;
+  --primary_color:#E7F0DC;
+  --secondary_color:#597445;
+  --green_color:#658147;
+  --subGreen_color:#729762;
+  --white-color: #fff;
+  --red_color:#cf2e2e;
+}
+
+@media (min-width: 640px) {
+  .main_container {
+      max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .main_container {
+      max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .main_container {
+      max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .main_container {
+      max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .main_container {
+      max-width: 1536px;
+  }
+}
+@media (min-width: 1800px) {
+  .main_container {
+      max-width: 80%;
+  }
+}

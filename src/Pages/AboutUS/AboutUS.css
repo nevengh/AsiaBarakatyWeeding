@@ -1,0 +1,13 @@
+
+
+.hero_text{
+    width: 60%;
+    margin: 100px auto;
+    
+}
+.hero_text p{
+    text-align: center;
+    font-size: 35px;
+    line-height: 60px;
+}
+
