@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import './VIP.css'
 import { motion } from "framer-motion";
 import { FaCamera, FaVideo } from "react-icons/fa";

@@ -8,7 +8,7 @@ import GoldPackage from '../../components/GoldPackage/GoldPackage';
 import DimondPackage from '../../components/DimondPackage/DimondPackage';
 import VIP from '../../components/VIP/VIP';
 
-const PackagesPage = () => {
+const Packages_Page = () => {
     const [selectedPackage, setSelectedPackage] = useState(null);
   
     const handlePackageClick = (packageName) => {
@@ -52,4 +52,4 @@ const PackagesPage = () => {
     );
 };
 
-export default PackagesPage;
+export default Packages_Page;
