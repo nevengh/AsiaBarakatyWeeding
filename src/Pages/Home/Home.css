@@ -49,3 +49,23 @@
     color: var(--secondary_color);
     cursor: pointer;
 }
+
+@media(max-width:420px){
+    .nav_link_btn a{
+       
+        width: 320px !important;
+       
+        font-size: 16px;
+        
+    }
+    .nav_link_btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل */
+       
+    }
+}
