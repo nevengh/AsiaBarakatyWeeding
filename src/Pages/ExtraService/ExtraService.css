@@ -1,0 +1,66 @@
+.ExtraService {
+  margin-top: 105px;
+  margin-bottom: 105px;
+}
+.section_header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.211); /* إضافة ظل خفيف */
+  padding: 30px;
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 70%;
+
+  border-collapse: collapse;
+  /* font-family: Arial, sans-serif; */
+}
+
+th,
+td {
+  border: 1px solid #ccc !important;
+  padding: 10px;
+  text-align: center !important;
+  padding: 20px;
+}
+
+.title_header {
+  color: var(--secondary_color);
+}
+.sub_title {
+  color: var(--green_color);
+  text-align: center;
+}
+.camera_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.camera_icon svg {
+  color: var(--secondary_color);
+}
+.left_line,
+.right_line {
+  width: 100px;
+  height: 2px;
+  background-color: var(--secondary_color);
+}
+
+@media(max-width:425px){
+  .section_header{
+    width: 360px !important;
+  }
+}

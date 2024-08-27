@@ -1,0 +1,29 @@
+.packages_filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.bronzePackage,.dimondPackage,.goldPackage,.silverPackage,.vipPackage,.classicPackage{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.211); /* إضافة ظل خفيف */
+    padding: 30px;
+    cursor: pointer;
+}
+
+.package_details{
+    margin-bottom: 80px;
+}
+.package_details .TenHours {
+    margin-top: 105px;
+    background-color:transparent !important;
+    width: 100%;
+  }

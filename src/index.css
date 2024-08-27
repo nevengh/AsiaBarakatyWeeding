@@ -16,7 +16,9 @@ body{
   width: 100%;
   padding: 2rem;
 }
-
+ul{
+  list-style: none;
+}
 :root{
   --Tajwal_font:"Tajawal", sans-serif;
 
@@ -32,7 +34,7 @@ body{
   --green_color:#658147;
   --subGreen_color:#729762;
   --white-color: #fff;
-  --red_color:#cf2e2e;
+  --gold-color:#cf2e2e;
 }
 
 @media (min-width: 640px) {
