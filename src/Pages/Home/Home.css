@@ -7,10 +7,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 }
 .home .logo img{
-    width: 150px;
+    width: 250px;
 }
 
 .nav_link_btn{

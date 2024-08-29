@@ -1,13 +1,12 @@
 import './Home.css'
-import logo from '../../assets/photo_2024-08-23_11-40-48.ico'
+import logo from '../../assets/logo1.png'
 import { Link } from 'react-router-dom'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 const Home = () => {
   return (
     <div className='home'>
         <div className="logo">
-            <img src={logo} alt="" />
-            {/* <h1>آسيا البركاتي</h1> */}
+            <img src={logo} alt="Asia Al barakaty Logo" />
         </div>
         <div className="nav_link_btn">
             <Link to='/about-us'>
