@@ -7,7 +7,7 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.bronzePackage,.dimondPackage,.goldPackage,.silverPackage,.vipPackage,.classicPackage{
+.bronzePackage,.dimondPackage,.goldPackage,.silverPackage,.vipPackage,.classicPackage,.important{
     width: 200px;
     height: 50px;
     display: flex;
@@ -17,6 +17,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.211); /* إضافة ظل خفيف */
     padding: 30px;
     cursor: pointer;
+    text-align: center;
 }
 
 .package_details{

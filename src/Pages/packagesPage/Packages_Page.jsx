@@ -7,6 +7,7 @@ import SilverPackage from '../../components/SilverPackage/SilverPackage';
 import GoldPackage from '../../components/GoldPackage/GoldPackage';
 import DimondPackage from '../../components/DimondPackage/DimondPackage';
 import VIP from '../../components/VIP/VIP';
+import ImportantInfo from '../../components/ImportantInfo/ImportantInfo';
 
 const Packages_Page = () => {
     const [selectedPackage, setSelectedPackage] = useState(null);
@@ -29,6 +30,8 @@ const Packages_Page = () => {
                 return <VIP/>;
             case 'classic':
                 return <SixHourOffer/>
+            case 'important':
+                return <ImportantInfo/>
             default:
                 return <SixHourOffer/>;
         }
@@ -44,6 +47,7 @@ const Packages_Page = () => {
                 <div className="goldPackage" onClick={() => handlePackageClick('gold')}>الباقة الذهبية</div>
                 <div className="dimondPackage" onClick={() => handlePackageClick('diamond')}>الباقة الألماسية</div>
                 <div className="vipPackage" onClick={() => handlePackageClick('vip')}>VIP</div>
+                <div className="important" onClick={() => handlePackageClick('important')}>ملاحظات مهمة للعميل</div>
             </div>
             <div className="package_details">
                 {renderPackageDetails()}

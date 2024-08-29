@@ -39,12 +39,12 @@
 .nav_link_btn a:hover{
     background-color: #E7F0DC;
 }
-.instagram{
+/* .instagram{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 20px;
-}
+} */
 .instagram svg{
     color: var(--secondary_color);
     cursor: pointer;

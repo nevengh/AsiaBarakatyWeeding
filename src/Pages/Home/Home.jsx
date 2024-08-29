@@ -1,7 +1,6 @@
 import './Home.css'
 import logo from '../../assets/logo1.png'
 import { Link } from 'react-router-dom'
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 const Home = () => {
   return (
     <div className='home'>
@@ -19,21 +18,19 @@ const Home = () => {
                 آراء العملاء
             </Link>
             <Link to='/albums'>
-                الألبومات 
+                تصوير حفلات الزفاف 
+            </Link>
+            <Link to='https://www.instagram.com/asounaphotograph2?igsh=amt6ZWVsNHpmMzBm'>
+                حساب انستغرام المطبعة
+            </Link>
+            <Link to='https://www.instagram.com/asiaphoto3?igsh=MTZmbXpiMWxxa2x6NQ==' className='instagram'>
+                انستغرام التصوير 
             </Link>
             <Link to='/extraServices'>
                 خدمات إضافية
             </Link>
-            <Link to='/extraServices'>
-                موقع المطبعة
-            </Link>
-            <Link to='https://www.instagram.com/asiaphoto3?igsh=MTZmbXpiMWxxa2x6NQ==' className='instagram'>
-                انستغرام التصوير 
-                <FaInstagram/>
-            </Link>
             <Link to='#' className='instagram'>
                 واتس آب 
-                <FaWhatsapp/>
             </Link>
             
         </div>
