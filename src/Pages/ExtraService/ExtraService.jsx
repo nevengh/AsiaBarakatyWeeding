@@ -58,12 +58,12 @@ const ExtraService = () => {
       <div className="section_header">
         <h1 className="title_header"> الخدمات الإضافية</h1>
         <h3 className="sub_title"> خدمات إضافية من الممكن إضافتها للباقات</h3>
+      </div>
         <div className="camera_icon">
           <div className="left_line"></div>
           <FaStar />
           <div className="right_line"></div>
         </div>
-      </div>
       <div className="table-container" ref={tableRef}>
         <motion.table
           variants={tableVariants}

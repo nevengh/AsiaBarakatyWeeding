@@ -52,15 +52,20 @@ td {
 .camera_icon svg {
   color: var(--secondary_color);
 }
-.left_line,
-.right_line {
-  width: 100px;
+.ExtraService .left_line,
+.ExtraService .right_line {
+  width: 150px;
   height: 2px;
   background-color: var(--secondary_color);
 }
 
+
+
+
+
 @media(max-width:425px){
   .section_header{
     width: 360px !important;
+    padding: 30px 20px;
   }
 }
