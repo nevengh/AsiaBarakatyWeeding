@@ -11,6 +11,7 @@ const SeoComponnent = ({ title, description, type , keyword }) => {
             { /* End standard metadata tags */}
 
 
+
             { /* Facebook tags */}
             <meta property="og:type" content={type} />
             <meta property="og:title" content={title} />
