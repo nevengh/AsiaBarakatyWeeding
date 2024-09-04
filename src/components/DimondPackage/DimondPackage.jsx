@@ -121,7 +121,7 @@ const DimondPackage = () => {
           </ul>
         </motion.div>
       </motion.div>
-       <p className="Price">سعر الباقة:9,500 درهم</p>
+        <p className="Price">سعر الباقة:9,500 درهم</p>
     </motion.div>
   );
 }
