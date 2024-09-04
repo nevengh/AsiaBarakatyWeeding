@@ -61,7 +61,8 @@
 }
 
 .HJ_groupVideos {
-    width: 46%;
+    width: 85%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -69,7 +70,8 @@
 }
 
 .HJ_group2Videos {
-    width: 31%;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     gap: 40px;

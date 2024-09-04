@@ -1,5 +1,6 @@
 .HJ_groupImgs {
-    width: 30%;
+    width: 80%;
+    margin:0 auto;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -9,10 +10,12 @@
 .HJ_groupImgs img {
     width: 100%;
     margin-bottom: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
 }
 
 .HJ_groupImgs img:hover {
-    transform: scale(120%);
+    transform: scale(140%);
 }
 
 .Title h2 {

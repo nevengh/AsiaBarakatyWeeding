@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './AlbumPhotos.css'
 import Hero from '../../components/Hero/Hero'
 import Img1 from './../../assets/Albums/1.jpg'
