@@ -1,21 +1,19 @@
 .HJ_groupImgs {
-    width: 80%;
-    margin:0 auto;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
     align-items: center;
 }
 
 .HJ_groupImgs img {
-    width: 100%;
-    margin-bottom: 40px;
+    width: 30%;
+    margin-bottom: 50px;
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
 
 .HJ_groupImgs img:hover {
-    transform: scale(140%);
+    transform: scale(120%); 
 }
 
 .Title h2 {
@@ -30,7 +28,11 @@
 @media (max-width: 992px) {
     .HJ_groupImgs {
         width: 100%;
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .HJ_groupImgs img {
+        width: 100%;
+    
     }
     .HJ_groupImgs img:hover {
         transform: scale(100%);
