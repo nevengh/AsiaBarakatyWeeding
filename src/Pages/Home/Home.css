@@ -61,8 +61,7 @@
 }
 
 .HJ_groupVideos {
-    width: 85%;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -70,27 +69,39 @@
 }
 
 .HJ_group2Videos {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
 
-.HJ_group2Videos video,
 .HJ_groupVideos video {
-    width: 100%;
+    width: 46%; 
     margin-bottom: 40px;
 
 }
+
+.HJ_group2Videos video{
+    width: 31%;
+    margin-bottom: 40px;
+
+}
+
+
 
 @media(max-width:992px) {
 
     .HJ_group2Videos,
     .HJ_groupVideos {
         width: 100%;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
+
+    .HJ_group2Videos video,
+    .HJ_groupVideos video {
+        width: 100%;
+    }
+
 
 }
 
