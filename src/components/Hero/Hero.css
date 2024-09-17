@@ -30,6 +30,7 @@
     transform: translate(-50%,-50%);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
     padding: 20px 50px;
+    width: max-content;
     
 }
 .hero h2 a{
@@ -42,4 +43,10 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.84);
     cursor: pointer;
+}
+
+@media (max-width:450px){
+    .hero h2{
+        font-size: 35px;
+    }
 }
