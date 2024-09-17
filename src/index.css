@@ -30,11 +30,14 @@ ul{
   
   --black-color: #1b1b1b;
   --primary_color:#E7F0DC;
-  --secondary_color:#597445;
+  --secondary_color:#4d4c38;
+  --secondary_color_hero:#597445;
   --green_color:#658147;
   --subGreen_color:#729762;
   --white-color: #fff;
   --gold-color:#cf2e2e;
+  --Audi_color:#862426;
+  --Audi_color_sec:#9e3839;
 }
 
 @media (min-width: 640px) {

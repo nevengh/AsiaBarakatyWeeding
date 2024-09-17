@@ -55,21 +55,21 @@ const TenHours = () => {
           variants={sectionVariants}
         >
           <ul className="choices_list">
-            <h3>مدة التصوير 3 ساعات</h3>
-            <h3>محتويات الباقة:</h3>
+            <li>مدة التصوير 3 ساعات</li>
+            <h3 className="photo_contain">محتويات الباقة</h3>
             <p className="contain_package_text">فوتو</p>
-            <h3>تصوير الفوتو يشمل:</h3>
+            <h3 className="photo_contain">تصوير الفوتو يشمل</h3>
             <li>عدد لا محدود من الصور مع البومين</li>
+            <li>البوم مقاس A5 يشمل 15 صورة معدلة للأهل</li>
+            <li>فلاش يجمع جميع الصور الملتقطة</li>
             <li>
               البوم مقاس 10*10 يشمل على 40 صورة معدلة للعرسان شاملة التفاصيل
             </li>
-            <li>البوم مقاس A5 يشمل 15 صورة معدلة للأهل</li>
-            <li>فلاش يجمع جميع الصور الملتقطة</li>
           </ul>
         </motion.div>
       </motion.div>
 
-      <p className="Price">سعر الباقة: 3,500 درهم</p>
+      {/* <p className="Price">سعر الباقة: 3,500 درهم</p> */}
     </div>
   );
 };

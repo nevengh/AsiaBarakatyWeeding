@@ -62,11 +62,11 @@ function SixHourOffer() {
         >
           
           <ul className="choices_list">
-            <h3>مدة التصوير ساعتين</h3>
-              <h3>محتويات الباقة:</h3>
+            <li>مدة التصوير ساعتين</li>
+              <h3>محتويات الباقة</h3>
               <p className="contain_package_text">فوتو + فيديو</p>
            
-              <h3>تصوير الفوتو يشمل :</h3>
+              <h3 className="photo_contain">تصوير الفوتو يشمل </h3>
             <li>استلام البوم ايطالي من اختيار العروس مقاس 8*8 يشمل 25 صورة معدله</li>
             
           </ul>
@@ -105,7 +105,7 @@ function SixHourOffer() {
           transition={{ duration: 0.8, delay: 0.3 }}
           variants={sectionVariants}
         >
-          <h3>الفيديو يشمل :</h3>
+          <h3 className="photo_contain">الفيديو يشمل</h3>
       
           <ul className="choices_list">
             
@@ -116,7 +116,7 @@ function SixHourOffer() {
           </ul>
         </motion.div>
       </motion.div>
-       <p className="Price">سعر الباقة:2,700 درهم</p>
+       {/* <p className="Price">سعر الباقة:2,700 درهم</p> */}
     </motion.div>
   );
 }

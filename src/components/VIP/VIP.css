@@ -2,10 +2,13 @@
 width: 50%;
 margin: 0 auto;
 }
-/* .long_text_li{
-    width: 70%;
-    margin: 0 auto;
-} */
+
 .choices_list h3{
-    color: #A65E2E !important;
+    color: var(--Audi_color) !important;
+    margin-bottom: 40px !important;
+    
 }
+/* .photo_contain{
+    margin-bottom: 30px !important;
+    margin-top: 20px;
+} */

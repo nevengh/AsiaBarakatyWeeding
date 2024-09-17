@@ -24,7 +24,7 @@ const GoldPackage = () => {
       variants={sectionVariants}
     >
       <div className="section_header">
-        <h1 className="title_header">الباقة الذهبية للأعراس</h1>
+        <h1 className="title_header">الباقة الذهبية </h1>
       </div>
 
       <motion.div
@@ -59,8 +59,8 @@ const GoldPackage = () => {
           variants={sectionVariants}
         >
           <ul className="choices_list">
-            <h3>مدة التصوير 6 ساعات</h3>
-            <h3>محتويات الباقة:</h3>
+            <li>مدة التصوير 6 ساعات</li>
+            <h3>محتويات الباقة</h3>
             <p className="contain_package_text">فوتو + فيديو</p>
             <h3>تصوير الفوتو يشمل :</h3>
             <li>استلام البومين فاخرين من خامات ايطالية من اختيار العروس</li>
@@ -106,19 +106,19 @@ const GoldPackage = () => {
         >
           
           <ul className="choices_list">
-            <h3>الفيديو يشمل:</h3>
-            <li>لبس العروسة الطقم والتعطير كلقطات تجهيزية</li>
-            <li>تصوير تفاصيل المكان</li>
-            <li>تفاصيل العروسة</li>
-            <li>زفة العروس</li>
-            <li>زفة العريس</li>
+            <h3>الفيديو يشمل</h3>
             <li>تقطيع الكيكة</li>
+            <li>تفاصيل العروسة</li>
+            <li>تصوير تفاصيل المكان</li>
+            <li>زفة العروس والعريس</li>
+            {/* <li>زفة العريس</li> */}
             <li>استلام فيديو اساسي</li>
             <li>استلام فيديو هايلايت</li>
+            <li>لبس العروسة الطقم والتعطير كلقطات تجهيزية</li>
           </ul>
         </motion.div>
       </motion.div>
-      <p className="Price">سعر الباقة:6,950 درهم</p>
+      {/* <p className="Price">سعر الباقة:6,950 درهم</p> */}
     </motion.div>
   );
 };

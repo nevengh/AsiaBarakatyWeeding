@@ -1,120 +1,142 @@
-.title_header{
+.title_header {
     font-size: 45px;
-    color: var(--green_color);
+    color: var(--Audi_color);
     text-align: center;
     margin-top: 30px;
+    font-weight: 600;
 }
-.sub_title{
+
+.sub_title {
     text-align: center;
-    color: var(--subGreen_color);
+    color: var(--Audi_color_sec);
 }
-.photography,.cinema{
+
+.photography, .cinema {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.camera_icon svg{
+
+.camera_icon svg {
     font-size: 30px;
-    /* color: rgb(53, 52, 52); */
-    color: var(--subGreen_color);
+    color: var(--secondary_color) !important;
 }
-.camera_icon{
+
+.camera_icon {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
 
-}
-.left_line,.right_line{
+.left_line, .right_line {
     width: 300px;
-    height: 1px;
-    /* background-color: var(--black-color); */
-    background-color: var(--green_color);
+    height: 2px !important;
+    background-color: var(--secondary_color) !important;
 }
-.photography_list h3{
-    font-size: 22px;
+
+.photography_list h3 {
+    font-size: 37px;
     line-height: 30px;
     text-align: center;
-    color: #5C4033;
+    color: var(--Audi_color) !important;
+    font-weight: 600;
+    
+    
+}
+.photography,.cinema{
+    margin-top: 30px;
+    background: rgba(249, 249, 249, 1);
+    width: 100%;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+.photography_list .choices_list {
+    list-style-type: none; /* Remove default list style */
+    margin-top: 30px;
+}
+
+.photography_list .choices_list li {
+    font-size: 23px;
+    line-height: 40px;
+    width: 100%;
+    margin: 20px auto; /* Center the list items */
+    color: var(--secondary_color) !important; /* Ensures text color */
+    text-align: center; /* Align text to the left for better spacing */
     font-weight: 600;
 }
 
-.photography_list .choices_list {
-    /* list-style: disc !important; */
-    
-    list-style-type: disc; 
-    margin-top: 30px;
+/* Custom marker styles */
+.photography_list .choices_list li::before {
+   content:'';
+   display:inline-block; /* To create a custom dot */
+   width:.5em; /* Size of custom dot */
+   height:.5em; /* Size of custom dot */
+   background-color: var(--Audi_color); /* Color of custom dot */
+   border-radius:50%; /* Make it circular */
+   margin-left:.5em; /* Space between dot and text */
+   vertical-align: middle; /* Align vertically with text */
 }
-li::marker {
-    color: #A65E2E; 
-    font-size: 1.5em;
-}
-.photography_list .choices_list li{
-    font-size: 20px;
-    line-height: 40px;
-    width: 100%;
-        margin: 15px auto;
-        
-    /* color: rgb(53, 52, 52); */
-    color: var(--green_color) !important;
-    text-align: center;
-    
-}
-.no_limit_text{
-    color: var(--gold-color);
+
+.no_limit_text {
+    color: var(--Audi_color);
     font-size: 22px;
     text-align: center;
     font-weight: 600;
 }
-.Price{
-    color: var(--gold-color);
+
+.Price {
+    color: var(--Audi_color);
     text-align: center;
     font-size: 35px;
     font-weight: 600;
     margin-top: 40px;
 }
-.contain_package_text{
-    color: var(--subGreen_color) !important;
-    font-weight: 600;
+
+.contain_package_text {
+    color: var(--secondary_color) !important;
+    font-weight: 600 !important;
     text-align: center;
     width: max-content;
-    margin: 0 auto;
-    font-size: 20px;
+    margin: 20px auto;
+    font-size: 23px !important;
+    
 }
 
-@media (max-width:685px){
-    .left_line,.right_line{
+/* Media Queries */
+@media (max-width:685px) {
+    .left_line, .right_line {
         width: 200px !important;
         height: 1px;
         background-color: var(--black-color);
     }
-    
+
     .title_header {
         font-size: 30px;
         color: var(--green_color);
         text-align: center;
         margin-top: 30px;
       }
-      .sub_title{
+      
+      .sub_title {
         text-align: center;
         color: var(--subGreen_color);
         font-size: 16px;
-    }
-    .photography_list .choices_list li{
-        font-size: 18px;
-        width: 80%;
-        margin: 15px auto;
-    }
+      }
+      
+     
 }
-@media (max-width:465px){
-    .left_line,.right_line{
-        width: 130px !important;
-        height: 1px;
+
+@media (max-width:465px) {
+    .left_line, .right_line {
+        width: 130px !important; 
+        height: 1px; 
         background-color: var(--black-color);
-    }
-    .Price{
-        font-size: 30px;
-        font-weight: 600;
-    }
+     }
+     
+     .Price {
+         font-size: 30px; 
+         font-weight: 600; 
+     }
 }
