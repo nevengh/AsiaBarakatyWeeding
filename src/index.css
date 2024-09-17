@@ -18,7 +18,9 @@ body{
 }
 ul{
   list-style: none;
+  padding-left: 0 !important;
 }
+
 :root{
   --Tajwal_font:"Tajawal", sans-serif;
 
