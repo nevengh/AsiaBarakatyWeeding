@@ -114,14 +114,14 @@
 
     .title_header {
         font-size: 30px;
-        color: var(--green_color);
+        color: var(--Audi_color);
         text-align: center;
         margin-top: 30px;
       }
       
       .sub_title {
         text-align: center;
-        color: var(--subGreen_color);
+        color: var(--Audi_color_sec);
         font-size: 16px;
       }
       
