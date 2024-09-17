@@ -19,7 +19,6 @@ const TenHours = () => {
       {/* Section Header */}
       <div className="section_header">
         <h1 className="title_header">الباقة البرونزية</h1>
-        
       </div>
 
       {/* Photography Section */}
@@ -55,23 +54,18 @@ const TenHours = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           variants={sectionVariants}
         >
-          {/* <h3>تصوير فوتوغرافي ل :</h3> */}
           <ul className="choices_list">
-            <li>مدة التصوير 3 ساعات</li>
+            <h3>مدة التصوير 3 ساعات</h3>
+            <h3>محتويات الباقة:</h3>
+            <p className="contain_package_text">فوتو</p>
+            <h3>تصوير الفوتو يشمل:</h3>
+            <li>عدد لا محدود من الصور مع البومين</li>
             <li>
-              <h3>محتويات الباقة:</h3>
-              <p>فوتو</p>
-
+              البوم مقاس 10*10 يشمل على 40 صورة معدلة للعرسان شاملة التفاصيل
             </li>
-            <li>
-              <h3>تصوير الفوتو يشمل:</h3>
-              <p>عدد لا محدود من الصور مع البومين</p>
-              <p className='video_info'>(ألبوم مقاس 10*10 يشمل على 40 صورة معدلة للعرسان شاملة التفاصيل-ألبوم مقاس A5 يشمل 15 صورة معدلة للأهل)</p>
-              <p>فلاش يجمع جميع الصور الملتقطة</p>
-            </li>
-            
+            <li>البوم مقاس A5 يشمل 15 صورة معدلة للأهل</li>
+            <li>فلاش يجمع جميع الصور الملتقطة</li>
           </ul>
-          
         </motion.div>
       </motion.div>
 

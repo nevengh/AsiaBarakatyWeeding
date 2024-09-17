@@ -1,5 +1,5 @@
 import './Home.css'
-import logo from '../../assets/logo1.png'
+import logo from '../../assets/logooooo-removebg-preview.png'
 import { Link } from 'react-router-dom'
 import Video1 from './../../assets/videos/VID-20240902-WA0001.mp4'
 import Video2 from './../../assets/videos/VID-20240902-WA0002.mp4'
@@ -12,6 +12,7 @@ import SeoComponnent from '../../components/SeoComponnent/SeoComponnent'
 const Home = () => {
     return (
         <div className='home'>
+
             <SeoComponnent
                 title="آسيا البركاتي / الصفحة الرئيسية"
                 keyword=" البكجات , اراء العملاء , من نحن, انستغرام التصوير "
@@ -36,16 +37,19 @@ const Home = () => {
                     تصوير حفلات الزفاف
                 </Link>
                 <Link to='https://www.instagram.com/asounaphotograph2?igsh=amt6ZWVsNHpmMzBm'>
-                    حساب انستغرام المطبعة
+                    حساب إنستقرام المطبعة
                 </Link>
                 <Link to='https://www.instagram.com/asiaphoto3?igsh=MTZmbXpiMWxxa2x6NQ==' className='instagram'>
-                    انستغرام التصوير
+                    إنستقرام التصوير
                 </Link>
                 <Link to='/extraServices'>
                     خدمات إضافية
                 </Link>
-                <Link to='#' className='instagram'>
-                    واتس آب
+                <Link to='https://iwtsp.com/971523500607' className='instagram'>
+                    واتس 
+                </Link>
+                <Link to='https://snapchat.com/t/EhgU8aJO' className='instagram'>
+                    سناب شات
                 </Link>
 
             </div>
@@ -68,14 +72,12 @@ const Home = () => {
                         <video autoPlay loop muted>
                             <source src={Video4} type="video/mp4" />
                         </video>
-
                         <video autoPlay loop muted>
                             <source src={Video5} type="video/mp4" />
                         </video>
                         <video autoPlay loop muted>
                             <source src={Video6} type="video/mp4" />
                         </video>
-
                     </div>
 
                 </div>

@@ -2,7 +2,6 @@
 import Hero from '../../components/Hero/Hero'
 import SeoComponnent from '../../components/SeoComponnent/SeoComponnent'
 import './AboutUS.css'
-
 const AboutUS = () => {
   return (
     <div className='aboutus'>
@@ -14,6 +13,7 @@ const AboutUS = () => {
       />
 
       <Hero pageName='من نحن' />
+      
       <div className="hero_text">
         <p>
           شركة متخصصة في تصوير الزواجات والمناسبات بخبرة أكثر من 10 سنوات نحن لا

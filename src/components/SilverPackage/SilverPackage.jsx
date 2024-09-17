@@ -1,9 +1,9 @@
-import './SilverPackage.css'
+import "./SilverPackage.css";
 import { motion } from "framer-motion";
 import { FaCamera, FaVideo } from "react-icons/fa";
 const SilverPackage = () => {
-   // Animation variants for different sections
-   const sectionVariants = {
+  // Animation variants for different sections
+  const sectionVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0 },
   };
@@ -59,23 +59,19 @@ const SilverPackage = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           variants={sectionVariants}
         >
-          
           <ul className="choices_list">
-            <li>مدة التصوير 4 ساعات</li>
+            <h3>مدة التصوير 4 ساعات</h3>
+            <h3>محتويات الباقة:</h3>
+            <p className="contain_package_text">فوتو + فيديو</p>
+            <h3>تصوير الفوتو يشمل :</h3>
+            <li>استلام البومين فاخرين من خامات ايطالية من اختيار العروس</li>
             <li>
-              <h3>
-              محتويات الباقة:</h3>
-              <p>فوتو + فيديو</p>
+              البوم مقاس 10*10 يشمل 40 صورة للعرسان شامل التفاصيل مع المعالجة
             </li>
-            <li>
-              <h3>تصوير الفوتو يشمل : :</h3>
-              {/* <p>عدد لا محدود من الصور</p> */}
-              <p>-استلام ألبومين فاخرين من خامات ايطالية من اختيار العروس</p>
-              <p className='video_info'>(البوم مقاس 10*10 يشمل 40 صورة للعرسان شامل التفاصيل مع المعالجة-البوم مقاس A5 يشمل طباعة 15 صورة للأهل مع لمعالجة)</p>
-              <p>استلام فلاش بكامل اللقطات الملتقطة</p>
-              <p>استلام صورة على لوحة خشبية</p>
-              </li>
-            
+            <li>البوم مقاس A5 يشمل طباعة 15 صورة للأهل مع لمعالجة</li>
+
+            <li>استلام فلاش بكامل اللقطات الملتقطة</li>
+            <li>استلام صورة على لوحة خشبية</li>
           </ul>
           <p className="no_limit_text">(عدد لا محدود من الصور )</p>
         </motion.div>
@@ -112,17 +108,23 @@ const SilverPackage = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           variants={sectionVariants}
         >
-          <h3>الفيديو يشمل :</h3>
-          <h3 className="sub_title">(تصوير تفاصيل المكان-تفاصيل العروسة-الزفة-التلبيس-تقطيع الكيكة-عقد القران إن وجد)</h3>
+
           <ul className="choices_list">
-            <li>استلام (فيديو أساسي - فيديو هايلايت) </li>
-            
+          <h3>الفيديو يشمل :</h3>
+            <li>تصوير تفاصيل المكان</li>
+            <li>تفاصيل العروسة</li>
+            <li>الزفه</li>
+            <li>التلبيس</li>
+            <li>تقطيع الكيكه</li>
+            <li>عقد القران إن وجد</li>
+            <li>استلام فيديو اساسي</li>
+            <li>استلام فيديو هايلايت</li>
           </ul>
         </motion.div>
       </motion.div>
-       <p className="Price">سعر الباقة:5,400 درهم</p>
+      <p className="Price">سعر الباقة:5,400 درهم</p>
     </motion.div>
   );
-}
+};
 
-export default SilverPackage
+export default SilverPackage;

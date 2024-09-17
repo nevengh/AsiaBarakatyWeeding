@@ -60,19 +60,14 @@ function SixHourOffer() {
           transition={{ duration: 0.8, delay: 0.3 }}
           variants={sectionVariants}
         >
-          {/* <h3>تصوير فوتوغرافي ل :</h3> */}
+          
           <ul className="choices_list">
-            <li>مدة التصوير ساعتين</li>
-            <li>
-              <h3>
-              محتويات الباقة:</h3>
-              <p>فوتو + فيديو</p>
-            </li>
-            <li>
-              <h3>تصوير الفيديو يشمل :</h3>
-              {/* <p>عدد لا محدود من الصور</p> */}
-              <p>مع استلام البوم ايطالي من اختيار العروس مقاس 8*8 يشمل 25 صورة</p>
-              </li>
+            <h3>مدة التصوير ساعتين</h3>
+              <h3>محتويات الباقة:</h3>
+              <p className="contain_package_text">فوتو + فيديو</p>
+           
+              <h3>تصوير الفوتو يشمل :</h3>
+            <li>استلام البوم ايطالي من اختيار العروس مقاس 8*8 يشمل 25 صورة معدله</li>
             
           </ul>
           <p className="no_limit_text">(عدد لا محدود من الصور )</p>
@@ -111,56 +106,16 @@ function SixHourOffer() {
           variants={sectionVariants}
         >
           <h3>الفيديو يشمل :</h3>
-          <h3 className="sub_title">(لقطات ولحظة عقد القران- تصوير توقيع العرسان-تفاصيل بسيطة مع العرسان)</h3>
+      
           <ul className="choices_list">
-            <li>استلام فلاش بكامل اللقطات الملتقطة </li>
             
+            <li>لقطات ولحظة عقد القران</li>
+            <li>تصوير توقيع العرسان</li>
+            <li>تفاصيل بسيطة مع العرسان</li>
+            <li>استلام فلاش بكامل اللقطات الملتقطة </li>
           </ul>
         </motion.div>
       </motion.div>
-
-      {/* <motion.div
-        className="photography"
-        initial="hidden"
-        whileInView="visible"
-        transition={{ duration: 0.8, delay: 0.4 }}
-        variants={sectionVariants}
-      >
-        <div className="camera_icon">
-          <motion.div
-            className="left_line"
-            variants={sectionVariants}
-            initial="hidden"
-            whileInView="visible"
-          ></motion.div>
-          <motion.div variants={iconVariants}>
-            <FaFile />
-          </motion.div>
-          <motion.div
-            className="right_line"
-            variants={sectionVariants}
-            initial="hidden"
-            whileInView="visible"
-          ></motion.div>
-        </div>
-        <motion.div
-          className="photography_list"
-          initial="hidden"
-          whileInView="visible"
-          transition={{ duration: 0.8, delay: 0.7 }}
-          variants={sectionVariants}
-        >
-          <h3>يتضمن :</h3>
-          <ul className="choices_list">
-            <li>تسليم 6 فيديوهات بمونتاج خاص لكل فيديو</li>
-            <li>ألبوم حراري كبير يحتوي على 70 صورة معالجة.</li>
-            <li>ألبوم حراري صغير يحتوي على 35 صورة معالجة.</li>
-            <li>لوحة حائط خشبية مقاس 30×40.</li>
-            <li>لوحة حائط خشبية مقاس 30×40.</li>
-          </ul>
-          <p className="Price">سعر الباقة: 19,900 ريال</p>
-        </motion.div>
-      </motion.div> */}
        <p className="Price">سعر الباقة:2,700 درهم</p>
     </motion.div>
   );
