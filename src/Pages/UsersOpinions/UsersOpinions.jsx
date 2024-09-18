@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import './UsersOpinions.css'
 import Hero from '../../components/Hero/Hero';
 import SeoComponnent from '../../components/SeoComponnent/SeoComponnent';

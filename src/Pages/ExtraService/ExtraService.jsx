@@ -87,7 +87,7 @@ const ExtraService = () => {
               {services.map((item, index) => (
                 <motion.tr key={index} variants={rowVariants}>
                   <td>{item.service}</td>
-                  <td>{item.price}</td>
+                  <td className="extra_service_price">{item.price}</td>
                 </motion.tr>
               ))}
             </motion.tbody>

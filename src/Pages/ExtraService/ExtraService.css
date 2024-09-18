@@ -34,6 +34,15 @@ td {
   padding: 10px;
   text-align: center !important;
   padding: 20px;
+  color: var(--Audi_color);
+}
+td{
+  color: var(--secondary_color) !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+.extra_service_price{
+  color: var(--Audi_color) !important;
 }
 
 .title_header {

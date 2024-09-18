@@ -105,9 +105,10 @@
 
 .CustomerTypes_filter {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 40px;
     margin-top: 50px;
     margin-bottom: 40px;
 }
