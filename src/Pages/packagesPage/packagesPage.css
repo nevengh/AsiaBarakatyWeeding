@@ -7,7 +7,7 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.bronzePackage,.dimondPackage,.goldPackage,.silverPackage,.vipPackage,.classicPackage,.important{
+.bronzePackage,.dimondPackage,.goldPackage,.silverPackage,.vipPackage,.classicPackage,.important,.photographers,.brides{
     width: 200px;
     height: 50px;
     display: flex;
@@ -21,7 +21,7 @@
     color: var(--Audi_color);
 }
 
-.package_details{
+.package_details , .opinions_details{
     margin-bottom: 80px;
 }
 .package_details .TenHours {

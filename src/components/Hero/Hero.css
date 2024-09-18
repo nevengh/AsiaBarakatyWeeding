@@ -46,10 +46,24 @@
     color: rgba(255, 255, 255, 0.84);
     cursor: pointer;
 }
-
-@media (max-width:450px){
+@media  (max-width:992px) and (min-width:670px){
     .hero h2{
         font-size: 35px;
-        width: 100%;
+        padding: 20px 23px;
     }
 }
+
+
+@media  (max-width:670px){
+    .hero h2{
+        font-size: 27px;
+        padding: 20px 23px;
+    }
+}
+@media  (max-width:450px){
+    .hero h2{
+        font-size: 22px;
+        padding: 20px 23px;
+    }
+}
+
