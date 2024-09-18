@@ -15,10 +15,7 @@
 
 
 .home .logo img {
-    width: 250px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px 40px; */
-  
+    width: 300px;
 }
 
 .nav_link_btn {
@@ -29,11 +26,8 @@
     gap: 30px;
     padding: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
     border-radius: 30px;
-    
     /* إضافة ظل */
-   
 
 }
 
