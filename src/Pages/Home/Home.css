@@ -1,10 +1,7 @@
 .home {
     
-    /* background-color: var(--secondary_color_hero); */
-    background-image: radial-gradient(circle at center, 
-    #597445 0%, 
-    #729762 50%, 
-    #4d4c38 100%);
+    background-color: var(--secondary_color_hero);
+    
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -32,11 +29,7 @@
     gap: 30px;
     padding: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-image: radial-gradient(circle at center, 
-    #597445 10%, 
-    #729762 50%, 
-    #4d4c38 100%,
-    #fff 10%);
+    
     border-radius: 30px;
     
     /* إضافة ظل */

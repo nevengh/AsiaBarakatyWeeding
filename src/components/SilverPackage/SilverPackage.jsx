@@ -110,7 +110,7 @@ const SilverPackage = () => {
         >
 
           <ul className="choices_list">
-          <h3>الفيديو يشمل :</h3>
+          <h3>الفيديو يشمل</h3>
             <li>الزفه,التلبيس</li>
             {/* <li>التلبيس</li> */}
             <li>تقطيع الكيكه</li>

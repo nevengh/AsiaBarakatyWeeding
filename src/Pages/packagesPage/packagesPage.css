@@ -18,6 +18,7 @@
     padding: 30px;
     cursor: pointer;
     text-align: center;
+    color: var(--Audi_color);
 }
 
 .package_details{
