@@ -16,13 +16,13 @@
     transform: scale(120%); 
 }
 
-.Title h2 {
-    font-size: 32px;
+.Title h1 {
+    font-size: 40px;
     font-family: var(--Primary-fontfamily);
-    font-weight: 800;
+    font-weight: 900;
     color: var(--green_color);
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 992px) {

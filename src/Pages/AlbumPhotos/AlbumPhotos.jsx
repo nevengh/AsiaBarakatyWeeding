@@ -42,7 +42,7 @@ const AlbumPhotos = () => {
             <div className='main_container'>
                 <div className='HJ_Album'>
                     <div className='Title'>
-                        <h2>  يوم زفافك هو حدث يستحق ان يتم التقاطه بأجمل طريقة ممكنة</h2>
+                        <h1>  يوم زفافك هو حدث يستحق ان يتم التقاطه بأجمل طريقة ممكنة</h1>
                     </div>
                     <div className='HJ_groupImgs'>
                         <img src={Img1} alt="Image Wedding" />
