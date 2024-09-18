@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import OpinionUser from '../../components/Opinion/OpinionUser';
 import { Carousel } from 'react-bootstrap'
 import Image1 from './../../assets/opinions/5929001107596624560.jpg'

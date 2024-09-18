@@ -112,7 +112,6 @@ const SilverPackage = () => {
           <ul className="choices_list">
           <h3>الفيديو يشمل</h3>
             <li>الزفه,التلبيس</li>
-            {/* <li>التلبيس</li> */}
             <li>تقطيع الكيكه</li>
             <li>تفاصيل العروسة</li>
             <li>عقد القران إن وجد</li>
@@ -122,7 +121,6 @@ const SilverPackage = () => {
           </ul>
         </motion.div>
       </motion.div>
-      {/* <p className="Price">سعر الباقة:5,400 درهم</p> */}
     </motion.div>
   );
 };

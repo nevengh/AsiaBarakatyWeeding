@@ -68,8 +68,6 @@ const TenHours = () => {
           </ul>
         </motion.div>
       </motion.div>
-
-      {/* <p className="Price">سعر الباقة: 3,500 درهم</p> */}
     </div>
   );
 };

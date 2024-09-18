@@ -116,7 +116,6 @@ function SixHourOffer() {
           </ul>
         </motion.div>
       </motion.div>
-       {/* <p className="Price">سعر الباقة:2,700 درهم</p> */}
     </motion.div>
   );
 }
