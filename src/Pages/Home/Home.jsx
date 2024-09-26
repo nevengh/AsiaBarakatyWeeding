@@ -1,5 +1,5 @@
 import './Home.css'
-import logo from '../../assets/logooooooos.png'
+import logo from '../../assets/beiglogo.png'
 import { Link } from 'react-router-dom'
 import Video1 from './../../assets/videos/VID-20240902-WA0001.mp4'
 import Video2 from './../../assets/videos/VID-20240902-WA0002.mp4'
